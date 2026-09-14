@@ -1,0 +1,88 @@
+import { AuraTheme, AuraThemeConfig, VoiceOption } from "../types";
+
+export const AURA_THEMES: Record<AuraTheme, AuraThemeConfig> = {
+  neon_rose: {
+    id: "neon_rose",
+    name: "Neon Rose",
+    subtitle: "Vibrant, flirty & bold",
+    primary: "#f43f5e",
+    secondary: "#fb7185",
+    glow: "rgba(244, 63, 94, 0.45)",
+    gradient: "from-rose-500 to-pink-500",
+    border: "border-rose-500/40",
+    ring: "ring-rose-500/50",
+    bgGlow: "rgba(244, 63, 94, 0.12)",
+  },
+  cyber_violet: {
+    id: "cyber_violet",
+    name: "Cyber Violet",
+    subtitle: "Mysterious & high-tech",
+    primary: "#a855f7",
+    secondary: "#c084fc",
+    glow: "rgba(168, 85, 247, 0.45)",
+    gradient: "from-purple-500 to-indigo-500",
+    border: "border-purple-500/40",
+    ring: "ring-purple-500/50",
+    bgGlow: "rgba(168, 85, 247, 0.12)",
+  },
+  electric_cyan: {
+    id: "electric_cyan",
+    name: "Electric Cyan",
+    subtitle: "Sharp, lucid & futuristic",
+    primary: "#06b6d4",
+    secondary: "#38bdf8",
+    glow: "rgba(6, 182, 212, 0.45)",
+    gradient: "from-cyan-500 to-blue-500",
+    border: "border-cyan-500/40",
+    ring: "ring-cyan-500/50",
+    bgGlow: "rgba(6, 182, 212, 0.12)",
+  },
+  emerald_matrix: {
+    id: "emerald_matrix",
+    name: "Emerald Matrix",
+    subtitle: "Crisp, neon & rebellious",
+    primary: "#10b981",
+    secondary: "#34d399",
+    glow: "rgba(16, 185, 129, 0.45)",
+    gradient: "from-emerald-500 to-teal-500",
+    border: "border-emerald-500/40",
+    ring: "ring-emerald-500/50",
+    bgGlow: "rgba(16, 185, 129, 0.12)",
+  },
+  solar_amber: {
+    id: "solar_amber",
+    name: "Solar Amber",
+    subtitle: "Warm, radiant & teasing",
+    primary: "#f59e0b",
+    secondary: "#fbbf24",
+    glow: "rgba(245, 158, 11, 0.45)",
+    gradient: "from-amber-500 to-orange-500",
+    border: "border-amber-500/40",
+    ring: "ring-amber-500/50",
+    bgGlow: "rgba(245, 158, 11, 0.12)",
+  },
+};
+
+export const AVAILABLE_VOICES: VoiceOption[] = [
+  {
+    id: "Kore",
+    name: "Kore",
+    persona: "Confident, witty & lively (Recommended)",
+    recommended: true,
+  },
+  {
+    id: "Aoede",
+    name: "Aoede",
+    persona: "Breezy, melodious & playful",
+  },
+  {
+    id: "Zephyr",
+    name: "Zephyr",
+    persona: "Smooth, crisp & casual",
+  },
+  {
+    id: "Puck",
+    name: "Puck",
+    persona: "Spirited, upbeat & spirited",
+  },
+];

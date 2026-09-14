@@ -1,0 +1,10 @@
+{
+  "name": "Remix Remix Remix Mahi AI",
+  "description": "A witty, sassy voice-to-voice AI assistant that brings charm and personality to your real-time browser interactions.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
